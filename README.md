@@ -1,3 +1,8 @@
+To start project follow steps:
+1. terminal --> yarn
+2. terminal --> npm start
+3. browser --> localhost:3000
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
