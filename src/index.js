@@ -11,6 +11,8 @@ import reducers from 'reducers';
 import './main.css';
 import Layout from 'containers/layout';
 import Catalog from 'containers/catalog';
+import Main from 'containers/main';
+import Good from 'containers/good';
 import HeBallon from 'containers/heBallon';
 import AirBallon from 'containers/airBallon';
 import MetalBallon from 'containers/metalBallon';
@@ -24,13 +26,14 @@ RenderDOM.render(
     <Provider store={store}>
         <Router history={history}>
             <Route component={Layout}>
-                <Route path='/' component={Catalog}/>
-                <Route path='/category/:id' component={Catalog}/>
+                <Route path='/' component={Main}/>
+                <Route path='/allCategory' component={Catalog}/>
+                <Route path='/category/:id' component={Good}/>
             </Route>
-            <Route path='/heBallon/:id' component={HeBallon}/>
-            <Route path='/airBallon/:id' component={AirBallon}/>
-            <Route path='/metalBallon/:id' component={MetalBallon}/>
-            <Route path='/decoration/:id' component={Decoration}/>
+            <Route path='/1/:id' component={HeBallon}/>
+            <Route path='/2/:id' component={AirBallon}/>
+            <Route path='/3/:id' component={MetalBallon}/>
+            <Route path='/4/:id' component={Decoration}/>
             <Route path='/basket' component={Basket}/>
         </Router>
     </Provider>
