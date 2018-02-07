@@ -27,7 +27,7 @@ RenderDOM.render(
         <Router history={history}>
             <Route component={Layout}>
                 <Route path='/' component={Main}/>
-                <Route path='/allCategory' component={Catalog}/>
+                <Route path='/allCategories' component={Catalog}/>
                 <Route path='/category/:id' component={Good}/>
             </Route>
             <Route path='/1/:id' component={HeBallon}/>
