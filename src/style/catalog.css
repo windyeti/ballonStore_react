@@ -53,3 +53,7 @@
 .list-group_woMarginBottom {
     margin-bottom: 0;
 }
+.list-group-item__image {
+    display: block;
+    margin: 0 auto;
+}
