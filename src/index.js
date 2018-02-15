@@ -12,7 +12,7 @@ import './main.css';
 import Layout from 'containers/layout';
 import Catalog from 'containers/catalog';
 import Main from 'containers/main';
-import Good from 'containers/good';
+// import Good from 'containers/good';
 import HeBallon from 'containers/heBallon';
 import AirBallon from 'containers/airBallon';
 import MetalBallon from 'containers/metalBallon';
